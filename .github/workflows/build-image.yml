@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '22.12'
-          cache: 'npm'
 
       # 安装依赖并构建前端
       - name: Install dependencies and build frontend
